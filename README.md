@@ -11,3 +11,8 @@ ENTREGA 2
 ![grafico2](https://github.com/TomasSchilling/MCOC2021-P3-Grupo13/blob/main/fig2.png)
 ![grafico3](https://github.com/TomasSchilling/MCOC2021-P3-Grupo13/blob/main/fig3.png)
 ![grafico4](https://github.com/TomasSchilling/MCOC2021-P3-Grupo13/blob/main/fig4.png)
+
+
+ENTREGA 3
+Grafico del unico integrante Tomas Schilling
+![grafico4](https://github.com/TomasSchilling/MCOC2021-P3-Grupo13/blob/main/Mapa%20casi%20bonito.png)
