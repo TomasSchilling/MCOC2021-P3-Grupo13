@@ -103,12 +103,22 @@ for i in valores:
     flujos[i]  = round( flujos[i],2)
 
 
+plt.figure(0)
+plt.suptitle("Sistema inicial")
+plt.grid()
+nx.draw_networkx_nodes(G, pos=pos)
+nx.draw_networkx_labels(G, pos=pos)
+nx.draw_networkx_edges(G, pos, width=2.5 , edge_color=color)
+nx.draw_networkx_edge_labels(G, pos, edge_labels=label)
+plt.show()
+
+
 plt.figure(1)
 plt.suptitle("Flujo en cada tramo")
 plt.grid()
 nx.draw_networkx_nodes(G, pos=pos)
 nx.draw_networkx_labels(G, pos=pos)
-nx.draw_networkx_edges(G, pos, width=2 , edge_color=color)
+nx.draw_networkx_edges(G, pos, width=2.5 , edge_color=color)
 nx.draw_networkx_edge_labels(G, pos, edge_labels=flujos)
 plt.show()
 
@@ -118,7 +128,7 @@ plt.suptitle("Costo en cada tramo")
 plt.grid()
 nx.draw_networkx_nodes(G, pos=pos)
 nx.draw_networkx_labels(G, pos=pos)
-nx.draw_networkx_edges(G, pos, width=2 , edge_color=color)
+nx.draw_networkx_edges(G, pos, width=2.5 , edge_color=color)
 nx.draw_networkx_edge_labels(G, pos, edge_labels=valores)
 plt.show()
 
